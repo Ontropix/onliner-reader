@@ -1,0 +1,9 @@
+Android/bin
+Android/obj
+bin
+obj
+packages
+_ReSharper.*
+*.suo
+UpgradeLog.htm
+*.userprefs
