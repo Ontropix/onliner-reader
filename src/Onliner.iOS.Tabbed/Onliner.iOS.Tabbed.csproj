@@ -141,7 +141,6 @@
     <Compile Include="ViewControllers\CommentsViewController.cs" />
     <Compile Include="WebViewDelegate.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Onliner\Onliner.csproj">
       <Project>{E7CB089B-7CD6-43B4-A0EE-465E4DE294E9}</Project>
@@ -175,4 +174,5 @@
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
 </Project>
