@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onliner", "Onliner\Onliner.csproj", "{E7CB089B-7CD6-43B4-A0EE-465E4DE294E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onliner.Core", "Onliner\Onliner.Core.csproj", "{E7CB089B-7CD6-43B4-A0EE-465E4DE294E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onliner.iOS.Tabbed", "Onliner.iOS.Tabbed\Onliner.iOS.Tabbed.csproj", "{124228AD-EEB7-4B1D-B832-7D3013756C7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onliner.iOS", "Onliner.iOS.Tabbed\Onliner.iOS.csproj", "{124228AD-EEB7-4B1D-B832-7D3013756C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

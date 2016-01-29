@@ -22,9 +22,8 @@
     <MtouchLink>None</MtouchLink>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchI18n>
-    </MtouchI18n>
     <MtouchArch>i386</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -142,9 +141,9 @@
     <Compile Include="WebViewDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Onliner\Onliner.csproj">
+    <ProjectReference Include="..\Onliner\Onliner.Core.csproj">
       <Project>{E7CB089B-7CD6-43B4-A0EE-465E4DE294E9}</Project>
-      <Name>Onliner</Name>
+      <Name>Onliner.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
