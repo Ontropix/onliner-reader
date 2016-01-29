@@ -6,7 +6,6 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Onliner.Models;
-using Xamarin.Forms;
 
 namespace Onliner.Helpers
 {

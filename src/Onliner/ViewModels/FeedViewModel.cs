@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using Onliner.Helpers;
 using Onliner.Models;
-using Xamarin.Forms;
 
 namespace Onliner
 {

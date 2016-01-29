@@ -21,9 +21,6 @@ namespace Onliner
 			PropertyChanged (this, new PropertyChangedEventArgs (propertyName));
 		}
 
-      
-
-
         private bool isBusy;
         /// <summary>
         /// Gets or sets if the view is busy.
@@ -59,8 +56,6 @@ namespace Onliner
 
             if (onChanging != null)
                 onChanging(value);
-
-           // OnPropertyChanging(propertyName);
 
             backingStore = value;
 

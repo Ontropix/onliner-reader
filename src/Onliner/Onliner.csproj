@@ -30,22 +30,15 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="App.cs" />
-    <Compile Include="Cells\CommentCell.cs" />
-    <Compile Include="Cells\FeedCell.cs" />
     <Compile Include="Helpers\FeedReader.cs" />
     <Compile Include="Models\FeedItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\FeedViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\ArticleViewModel.cs" />
-    <Compile Include="Views\FeedView.cs" />
-    <Compile Include="Views\ArticleView.cs" />
     <Compile Include="ViewModels\CommentsViewModel.cs" />
-    <Compile Include="Views\CommentsView.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\Comment.cs" />
-    <Compile Include="Services\IWindowService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup />
