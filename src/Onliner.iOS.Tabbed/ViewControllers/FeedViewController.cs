@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Drawing;
 
 using MonoTouch.Foundation;
@@ -59,12 +58,12 @@ namespace Onliner.iOS.Tabbed
 
 			indicator.StartAnimating ();
 
+
 			try {
 				await ViewModel.LoadItems ();
 			} catch (WebException) {
 
-				indicator.StopAnimating ();;
-
+				indicator.StopAnimating ();
 
 				UIAlertView alert = new UIAlertView ("Ошибка", "Проверьте соединение с интернетом", null, "Ok", null);
 				alert.Show ();

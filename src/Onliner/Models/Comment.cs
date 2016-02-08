@@ -9,14 +9,14 @@ using System.Collections.ObjectModel;
 namespace Onliner
 {
 
-        public class Comment
-        {
-            public string AuthorName { get; set; }
+	public class Comment
+	{
+		public string AuthorName { get; set; }
 
-            public string AuthorAvatar { get; set; }
+		public string AuthorAvatar { get; set; }
 
-            public DateTime CreatedAt { get; set; }
+		public DateTime CreatedAt { get; set; }
 
-            public string Text { get; set; }
-        }
+		public string Text { get; set; }
+	}
 }
